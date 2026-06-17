@@ -1,4 +1,4 @@
-## EcoSmart Foundation — Production Cloud Deployment & Monitoring Platform 🌿🚀
+# EcoSmart Foundation — Production Cloud Deployment & Monitoring Platform 🌿🚀
 
 A production-grade cloud deployment platform for the EcoSmart Foundation website, built using AWS, CI/CD automation, containerization, infrastructure as code, and full observability with Prometheus and Grafana.
 
@@ -74,6 +74,31 @@ Code change → Git push → Automated build → Container registry → Producti
 | Containerization | Docker |
 | Monitoring | Prometheus, Grafana, CloudWatch Exporter |
 | Source Control | GitHub (with webhook-triggered builds) |
+
+---
+
+## Screenshots
+
+**Infrastructure provisioned via Terraform (19 resources):**
+![Terraform apply complete](screenshots/01-terraform-apply-complete.png)
+
+**EcoSmart website live, served from ECS Fargate behind the ALB:**
+![Website live on ECS](screenshots/02-website-live-on-ecs-alb.png)
+
+**Jenkins CI/CD pipeline configured with GitHub webhook trigger:**
+![Jenkins pipeline configuration](screenshots/04-jenkins-pipeline-configuration.png)
+
+**Pipeline build history — successful automated deployments:**
+![Jenkins pipeline build history](screenshots/05-jenkins-pipeline-build-history.png)
+
+**GitHub webhook configuration for zero-touch deployments:**
+![GitHub webhook configuration](screenshots/07-github-webhook-configuration.png)
+
+**Prometheus confirming both scrape targets (Prometheus itself + CloudWatch Exporter) are healthy:**
+![Prometheus targets up](screenshots/10-prometheus-targets-up.png)
+
+**Grafana dashboard showing live ECS CPU and memory utilization, sourced from real CloudWatch metrics:**
+![Grafana CPU and memory dashboard](screenshots/14-grafana-dashboard-cpu-zoomed.png)
 
 ---
 
@@ -196,4 +221,3 @@ ecosmart-production-platform/
 
 **Abdon Njunwa**
 AWS Certified Solutions Architect | Cloud & DevOps Engineer
-
