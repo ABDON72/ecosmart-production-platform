@@ -6,7 +6,8 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/ABDON72/ecosmart-production-platform.git'
+                git branch: 'main',
+                url: 'https://github.com/ABDON72/ecosmart-production-platform.git'
             }
         }
 
