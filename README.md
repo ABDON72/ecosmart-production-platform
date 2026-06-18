@@ -1,4 +1,4 @@
-# EcoSmart Foundation — Enterprise AWS CI/CD & Observability Platform 🌿🚀
+# EcoSmart Foundation — Enterprise AWS CI/CD & Observability Platform 
 
 A production-grade cloud platform designed and implemented for the EcoSmart Foundation website using AWS, Terraform, Jenkins, Docker, ECS Fargate, Prometheus, and Grafana.
 
